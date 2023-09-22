@@ -34,7 +34,6 @@ import org.slf4j.Logger;
 public class NewBegginings {
     public static final String MOD_ID = "newbegginings";
     public static final Logger LOGGER = LogUtils.getLogger();
-
     public NewBegginings() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
